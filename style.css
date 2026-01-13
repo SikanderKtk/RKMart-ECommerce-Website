@@ -298,3 +298,124 @@ body {
         text-align: center;
     }
 }
+
+
+
+/* ================= MOBILE RESPONSIVE STYLING (≤576px) ================= */
+
+/* Navbar */
+.navbar .navbar-brand {
+    font-size: 24px;
+}
+
+.navbar .navbar-toggler {
+    border: none;
+}
+
+.navbar .navbar-collapse {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+.navbar .navbar-collapse.show {
+    display: flex;
+    background: linear-gradient(90deg, #bab107, #488206, #2c5364);
+    padding: 15px 0;
+}
+
+.navbar .nav-link {
+    margin: 10px 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.btn-main {
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+/* Product Cards - stack vertically */
+.product-card {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.product-card img {
+    height: 180px;
+}
+
+/* Product Detail Section */
+.product-detail-section {
+    padding: 15px;
+}
+
+/* Cart Page */
+.cart-page {
+    padding: 20px 10px;
+}
+
+.cart-container {
+    width: 100%;
+    padding: 15px;
+    box-shadow: none;
+}
+
+.cart-container table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.cart-summary {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    padding: 20px 10px;
+    font-size: 14px;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 22px;
+    margin: 40px 0 20px;
+}
+
+/* General Spacing */
+.container,
+.row {
+    width: 100%;
+    padding: 0 10px;
+}
+
+/* Animations keep same */
+@keyframes fadeInDown {
+    from {opacity:0; transform: translateY(-40px);}
+    to {opacity:1; transform: translateY(0);}
+}
+
+@keyframes fadeInUp {
+    from {opacity:0; transform: translateY(40px);}
+    to {opacity:1; transform: translateY(0);}
+}
